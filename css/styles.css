@@ -1,0 +1,48 @@
+#header-nav {
+	background-color: #ffbbcc;
+}
+
+/* Make the height of the nav bar height enough */
+#placeholder {
+	height: 100px;
+	visibility: hidden;
+	float: left;
+}
+
+div.navbar-brand > h1 {
+	margin-top: 10px;
+	color: black;
+	/* align to content */
+	margin-left: 10px;
+}
+
+#main-content > h2 {
+	font-family: Cursive;
+	margin-bottom: 30px;
+}
+
+#content-text {
+	font-size: 20px;
+	margin: 0px; /* override row class */
+	background-color: #ffbbcc;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #ffcc77;
+		border-top: 1px solid #ff8811
+	}
+}
+
+li {
+	border-bottom: 1px solid #ff8811
+}
+
+li > a {
+	font-size: 20px;
+}
+
+#dropdown-menu-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
