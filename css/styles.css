@@ -22,7 +22,7 @@ div.navbar-brand > h1 {
 }
 
 #content-text {
-	font-size: 20px;
+	font-size: 15px;
 	margin: 0px; /* override row class */
 	background-color: #ffbbcc;
 }
